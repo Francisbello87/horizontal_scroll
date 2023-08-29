@@ -33,17 +33,17 @@ function App() {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="main-container">
         <div className="scroll-container" data-scroll-container ref={ref}>
           <div className="content">
             <div className="gallery">
               {images}
               <div className="gallery-helper">Scroll to Discover More</div>
-              <div className="behind-text fill" data-scroll data-scroll-speed={-1}>
+              <div className="behind-text fill" data-scroll >
                 Everybody Loves a Good Story
               </div>
-              <div className="behind-text fill" data-scroll data-scroll-speed={-1}>
+              <div className="behind-text fill" data-scroll >
                 Everybody Loves a Good Story
               </div>
             </div>
