@@ -40,7 +40,10 @@ function App() {
             <div className="gallery">
               {images}
               <div className="gallery-helper">Scroll to Discover More</div>
-              <div className="behind-text fill">
+              <div className="behind-text fill" data-scroll data-scroll-speed={-1}>
+                Everybody Loves a Good Story
+              </div>
+              <div className="behind-text fill" data-scroll data-scroll-speed={-1}>
                 Everybody Loves a Good Story
               </div>
             </div>
